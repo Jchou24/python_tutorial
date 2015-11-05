@@ -1,0 +1,1 @@
+ipython nbconvert python\ programing.ipynb --to slides
