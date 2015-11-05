@@ -3524,7 +3524,7 @@ t1: 3  <br></p>
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
@@ -3534,6 +3534,35 @@ t1: 3  <br></p>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1.0
+1.0
+</pre>
+</div>
+</div>
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">ZeroDivisionError</span>                         Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-37-2a7e85877433&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">      2</span> y <span class="ansiblue">=</span> <span class="ansiblue">[</span><span class="ansicyan">1</span><span class="ansiblue">,</span><span class="ansicyan">2</span><span class="ansiblue">,</span><span class="ansicyan">0</span><span class="ansiblue">,</span><span class="ansicyan">5</span><span class="ansiblue">,</span><span class="ansicyan">0</span><span class="ansiblue">]</span><span class="ansiblue"></span>
+<span class="ansigreen">      3</span> <span class="ansigreen">for</span> i<span class="ansiblue">,</span>j <span class="ansigreen">in</span> zip<span class="ansiblue">(</span>x<span class="ansiblue">,</span>y<span class="ansiblue">)</span><span class="ansiblue">:</span><span class="ansiblue"></span>
+<span class="ansigreen">----&gt; 4</span><span class="ansired">     </span><span class="ansigreen">print</span> float<span class="ansiblue">(</span>i<span class="ansiblue">)</span> <span class="ansiblue">/</span> float<span class="ansiblue">(</span>j<span class="ansiblue">)</span><span class="ansiblue"></span>
+
+<span class="ansired">ZeroDivisionError</span>: float division by zero</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -3564,7 +3593,7 @@ except: <br>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
@@ -3580,6 +3609,24 @@ except: <br>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0. 1.0
+1. 1.0
+2. ERROR: 3 / 0
+3. 0.8
+4. ERROR: 5 / 0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -3592,7 +3639,7 @@ except: <br>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="sd">&quot;&quot;&quot;</span>
@@ -3608,6 +3655,22 @@ except: <br>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&apos;\n---------------------------------------------------------------------------\nZeroDivisionError                         Traceback (most recent call last)\n&lt;ipython-input-170-2a7e85877433&gt; in &lt;module&gt;()\n      2 y = [1,2,0,5,0]\n      3 for i,j in zip(x,y):\n----&gt; 4     print float(i) / float(j)\n\nZeroDivisionError: float division by zero\n&apos;</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -4168,6 +4231,15 @@ $$ 由於整數間的乘法，python已經幫我們定義完成，因此兩個�
 </div>
 </div>
 </div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#35731;&#25105;&#20497;&#20808;&#35430;&#33879;&#20570;&#20986;&#30697;&#38499;&#30456;&#21152;&#21543;&#65281;">&#35731;&#25105;&#20497;&#20808;&#35430;&#33879;&#20570;&#20986;&#30697;&#38499;&#30456;&#21152;&#21543;&#65281;<a class="anchor-link" href="#&#35731;&#25105;&#20497;&#20808;&#35430;&#33879;&#20570;&#20986;&#30697;&#38499;&#30456;&#21152;&#21543;&#65281;">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[178]:</div>
@@ -4837,7 +4909,7 @@ print sys.argv[1:]
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....">&#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....<a class="anchor-link" href="#&#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....">&#182;</a></h1>
+<h1 id="(&#65377;&#65381;&#711;_&#711;&#65381;&#65377;)-&#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....">(&#65377;&#65381;&#711;_&#711;&#65381;&#65377;) &#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....<a class="anchor-link" href="#(&#65377;&#65381;&#711;_&#711;&#65381;&#65377;)-&#35498;&#22909;&#30340;&#36996;&#25105;&#35352;&#25014;&#39636;....">&#182;</a></h1>
 </div>
 </div>
 </div></section><section>
@@ -4882,41 +4954,138 @@ gc.collect()</p>
 </div>
 
 </div></div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">gc</span>
+<span class="n">gc</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">7</span><span class="p">):</span>
+    <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="o">**</span><span class="mi">10</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>25.3801259995
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="20.-multiprocessing">20. multiprocessing<a class="anchor-link" href="#20.-multiprocessing">&#182;</a></h1>
+<h1 id="&#31243;&#24335;&#36305;&#22909;&#24930;&#21834;...">&#31243;&#24335;&#36305;&#22909;&#24930;&#21834;...<a class="anchor-link" href="#&#31243;&#24335;&#36305;&#22909;&#24930;&#21834;...">&#182;</a></h1>
 </div>
 </div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#19968;&#20491;&#31243;&#24335;&#36305;&#24456;&#24930;&#65292;&#20320;&#26377;&#29992;2&#20491;&#31243;&#24335;&#36305;&#21966;&#65311;">&#19968;&#20491;&#31243;&#24335;&#36305;&#24456;&#24930;&#65292;&#20320;&#26377;&#29992;2&#20491;&#31243;&#24335;&#36305;&#21966;&#65311;<a class="anchor-link" href="#&#19968;&#20491;&#31243;&#24335;&#36305;&#24456;&#24930;&#65292;&#20320;&#26377;&#29992;2&#20491;&#31243;&#24335;&#36305;&#21966;&#65311;">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="20.-multiprocessing">20. multiprocessing<a class="anchor-link" href="#20.-multiprocessing">&#182;</a></h1><blockquote><p>pool</p>
+</blockquote>
+
+</div>
+</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[73]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
+<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">multiprocessing</span> <span class="kn">import</span> <span class="n">Pool</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-</div>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[74]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
+<div class=" highlight hl-ipython2"><pre><span class="k">def</span> <span class="nf">worker</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="n">i</span><span class="o">**</span><span class="mi">10</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">gc</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">Pool</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">worker</span><span class="p">,</span><span class="nb">xrange</span><span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">7</span><span class="p">))</span>
+
+<span class="k">print</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">t</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>14.1475000381
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#12542;(&#180;&#8704;&#65344;)&#65417;-&#25105;&#29992;4&#20491;&#36305;&#36229;&#24555;&#65281;">&#12542;(<em>&#180;&#8704;&#65344;</em>)&#65417; &#25105;&#29992;4&#20491;&#36305;&#36229;&#24555;&#65281;<a class="anchor-link" href="#&#12542;(&#180;&#8704;&#65344;)&#65417;-&#25105;&#29992;4&#20491;&#36305;&#36229;&#24555;&#65281;">&#182;</a></h1>
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -4925,32 +5094,53 @@ gc.collect()</p>
 <h1 id="21.-experience">21. experience<a class="anchor-link" href="#21.-experience">&#182;</a></h1>
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#27284;">&#27284;<a class="anchor-link" href="#&#27284;">&#182;</a></h1>
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre> 
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#19981;&#33021;&#27794;&#26377;&#35387;&#35299;">&#19981;&#33021;&#27794;&#26377;&#35387;&#35299;<a class="anchor-link" href="#&#19981;&#33021;&#27794;&#26377;&#35387;&#35299;">&#182;</a></h1>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>多行註解可以將code全選後，按ctrl+/(mac: command+/)</p>
 
 </div>
 </div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#19968;&#27425;&#35519;&#25972;&#22810;&#34892;&#32302;&#25490;">&#19968;&#27425;&#35519;&#25972;&#22810;&#34892;&#32302;&#25490;<a class="anchor-link" href="#&#19968;&#27425;&#35519;&#25972;&#22810;&#34892;&#32302;&#25490;">&#182;</a></h1><p>若要調整多行縮排，可以將code全選後按 ctrl/command+[ or ctrl/command + ]</p>
 
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Thanks-for-your-watching!">Thanks for your watching!<a class="anchor-link" href="#Thanks-for-your-watching!">&#182;</a></h1>
+</div>
+</div>
 </div></section></section>
 </div>
 </div>
