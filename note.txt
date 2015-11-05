@@ -1,1 +1,2 @@
-ipython nbconvert python\ programing.ipynb --to slides
+ipython 2 slides
+    ipython nbconvert python\ programing.ipynb --to slides --post serve
