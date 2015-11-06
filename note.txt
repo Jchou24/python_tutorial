@@ -1,2 +1,7 @@
 ipython 2 slides
-    ipython nbconvert python\ programing.ipynb --to slides --post serve
+    播放:
+        ipython nbconvert python\ programing.ipynb --to slides --post serve
+    轉成.slides.html
+        ipython nbconvert python\ programing.ipynb --to slides --reveal-prefix ../reveal.js
+
+    reveal.js-3.1.0.zip
