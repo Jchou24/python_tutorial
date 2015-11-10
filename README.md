@@ -13,3 +13,17 @@
         - cd
         - ls
         - …etc
+
+# Tutorial Content
+    Lesson 0: Introduction
+    Lesson 1: python programing
+    Lesson 2: crawler
+    Lesson 3: DB
+    Lesson 4: preprocessing
+    Lesson 5: model building
+    Lesson 6: django recommender system
+
+# Getting Start
+    1. 請使用git clone或Download ZIP下載課程資料
+    2. 請進lesson 0-Introduction開啟Introduction.pptx
+    3. 其他章節請進資料夾後開啟.slides.html檔案
