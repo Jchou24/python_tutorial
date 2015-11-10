@@ -24,6 +24,6 @@
     Lesson 6: django recommender system
 
 # Getting Start
-    1. 請使用git clone或Download ZIP下載課程資料
+    1. 請使用右邊的git clone或Download ZIP下載課程資料
     2. 請進lesson 0-Introduction開啟Introduction.pptx
     3. 其他章節請進資料夾後開啟.slides.html檔案
