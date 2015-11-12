@@ -14,6 +14,20 @@
         - ls
         - …etc
 
+# Learning
+    ## 本課程的寫作風格
+        * 提問與解答
+            - 若有遇到提問的章節，建議可以先想想解法再按下一頁看答案喔！
+        * 直接說明
+            - 直接說明的章節通常都是很簡單的部份，只要試著打打看code，通常就能了解程式碼在做什麼
+            - 這些code大多都是後續會使用到的code
+            - 少量為值得提起，但後續不會用到的
+    ## Code
+        * 本課程的程式碼皆為可執行的
+        * 建議盡量所有的code都要親自執行看看
+        * 若遇到不清楚的程式碼，建議可以獨立出來執行看看會發生什麼事喔！
+
+
 # Tutorial Content
     Lesson 0: Introduction
     Lesson 1: python programing
@@ -25,5 +39,6 @@
 
 # Getting Start
     1. 請使用右邊的git clone或Download ZIP下載課程資料
+        * 如果你會使用git的指令的話，也可以使用git clone來同步教材
     2. 請進lesson 0-Introduction開啟Introduction.pptx
     3. 其他章節請進資料夾後開啟.slides.html檔案
