@@ -29,16 +29,13 @@
 
 
 # Tutorial Content
-    Lesson 0: Introduction
-    [Lesson 1: python programing](http://nbviewer.ipython.org/format/slides/github/Jchou24/python_tutorial/blob/master/lesson%201-python%20programing/python%20programing.ipynb)
-    Lesson 2: crawler
-    Lesson 3: DB
-    Lesson 4: preprocessing
-    Lesson 5: model building
-    Lesson 6: django recommender system
+Lesson 0: Introduction
 [Lesson 1: python programing](http://nbviewer.ipython.org/format/slides/github/Jchou24/python_tutorial/blob/master/lesson%201-python%20programing/python%20programing.ipynb)
-* 123 *
-** 222 ***
+Lesson 2: crawler
+Lesson 3: DB
+Lesson 4: preprocessing
+Lesson 5: model building
+Lesson 6: django recommender system
 
 # Getting Start
     1. 請使用右邊的git clone或Download ZIP下載課程資料
