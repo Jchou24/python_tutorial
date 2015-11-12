@@ -30,7 +30,7 @@
 
 # Tutorial Content
 > * Lesson 0: Introduction
-[Lesson 1: python programing](http://nbviewer.ipython.org/format/slides/github/Jchou24/python_tutorial/blob/master/lesson%201-python%20programing/python%20programing.ipynb)
+> * [Lesson 1: python programing](http://nbviewer.ipython.org/format/slides/github/Jchou24/python_tutorial/blob/master/lesson%201-python%20programing/python%20programing.ipynb)
 > * Lesson 2: crawler
 > * Lesson 3: DB
 > * Lesson 4: preprocessing
