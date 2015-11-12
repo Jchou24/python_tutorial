@@ -42,3 +42,8 @@
         * 如果你會使用git的指令的話，也可以使用git clone來同步教材
     2. 請進lesson 0-Introduction開啟Introduction.pptx
     3. 其他章節請進資料夾後開啟.slides.html檔案
+
+# Environment
+本教材是在Mac OS X Yosemite下製作
+* CPU 1.3 Ghz Intel Core i5
+* Mem 4 GB 1600 MHz DDR3
