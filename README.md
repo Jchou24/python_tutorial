@@ -29,8 +29,8 @@
 
 
 # Tutorial Content
-> * Lesson 0: Introduction
-> * Lesson 1: python programing
+> * [Lesson 0: Introduction](http://jchou24.github.io/python_tutorial/lesson%200-Introduction/Introduction.pptx)
+> * [Lesson 1: python programing](http://jchou24.github.io/python_tutorial/lesson%20lesson 1-python programing/python programing.slides.html)
 > * Lesson 2: crawler
 > * Lesson 3: DB
 > * Lesson 4: preprocessing
