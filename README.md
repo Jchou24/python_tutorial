@@ -38,10 +38,9 @@
 > * Lesson 6: django recommender system
 
 # Getting Start
-    1. 請使用右邊的git clone或Download ZIP下載課程資料
+    1. 點選上方的目錄即可線上觀看教材
+    2. 下載課程資料請使用右邊的git clone或Download ZIP
         * 如果你會使用git的指令的話，也可以使用git clone來同步教材
-    2. 請進lesson 0-Introduction開啟Introduction.pptx
-    3. 其他章節請進資料夾後開啟.slides.html檔案
 
 # Environment
 本教材是在Mac OS X Yosemite下製作
