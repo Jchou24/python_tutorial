@@ -5,3 +5,6 @@ ipython 2 slides
         ipython nbconvert python\ programing.ipynb --to slides --reveal-prefix ../reveal.js
 
     reveal.js-3.1.0.zip
+
+清理cache
+    flush_cashe=True
