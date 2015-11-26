@@ -31,7 +31,7 @@
 # Tutorial Content
 > * [Lesson 0: Introduction](http://jchou24.github.io/python_tutorial/slides/Introduction.pptx)
 > * [Lesson 1: python programing](http://jchou24.github.io/python_tutorial/slides/python programing.slides.html)
-> * Lesson 2: crawler
+> * [Lesson 2: crawler](http://jchou24.github.io/python_tutorial/slides/crawler.slides.html)
 > * Lesson 3: DB
 > * Lesson 4: preprocessing
 > * Lesson 5: model building
